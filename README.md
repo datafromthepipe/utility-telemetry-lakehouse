@@ -10,7 +10,7 @@ Built by **Emi Shyngle** | [linkedin.com/in/emishyngle](https://linkedin.com/in/
 
 Working across water, wastewater, telemetry, and network operations, I interpret high volume real-time sensor data from pumping stations, service reservoirs, CSOs and WwTW assets —triaging, managing compliance events end to end, and making data driven decisions where the cost of a wrong call is measured in service disruption to millions of people, fines and loss of confidence in the business by customers.
 
-That operational depth is the foundation of this project. The anomaly detection thresholds, telemetry freshness checks, data quality rules, and risk scoring logic are not arbitrary, they are derived from years of watching what good and bad data looks like in a live production environment where data quality has real world consequences.
+That operational depth is the foundation of this project. The anomaly detection thresholds, telemetry freshness checks, data quality rules, and risk scoring logic are not arbitrary, they are derived from years of seeing what good and bad data looks like in a live production environment where data quality has real world consequences.
 
 This DE portfolio project uses a dataset engineered from the ground up using the same thinking that drives operational decisions in a regulated infrastructure environment.
 
