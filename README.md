@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Utility Telemetry Lakehouse
 
 A production style data engineering pipeline built on operational domain expertise from over 3 years of infrastructure monitoring at United Utilities — one of the UK's largest regulated water companies, serving over 7 million customers across the North West.
@@ -165,3 +166,7 @@ Open to Data Engineer, BI Analyst, and Data Analyst roles — remote or hybrid a
 **Email:** emishyngle@gmail.com
 **LinkedIn:** [linkedin.com/in/emishyngle](https://linkedin.com/in/emishyngle)
 **Content:** [@datafromthepipe](https://tiktok.com/@datafromthepipe) — building this pipeline in public
+=======
+# utility-telemetry-lakehouse
+End to end data engineering pipeline built on water infrastructure telemetry data. Python, Databricks, Delta Lake, PySpark, SQL and Power BI
+>>>>>>> 837a3b5d73183acb801f46ec9077b52876df32ab
