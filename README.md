@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # Utility Telemetry Lakehouse
 
-A production style data engineering pipeline built on operational domain expertise from over 3 years of infrastructure monitoring at United Utilities — one of the UK's largest regulated water companies, serving over 7 million customers across the North West.
+A production style data engineering pipeline built using operational experience gained monitoring water and wastewater infrastructure for over three years in a major UK utility environment serving over 7 million customers.
 
 Built by **Emi Shyngle** | [linkedin.com/in/emishyngle](https://linkedin.com/in/emishyngle) | [@datafromthepipe](https://github.com/datafromthepipe)
 
@@ -113,6 +112,24 @@ utility-telemetry-lakehouse/
 └── README.md
 ```
 
+## Expected Outcomes
+
+This pipeline demonstrates:
+
+- Automated telemetry ingestion from live and synthetic data sources
+- Production grade data quality monitoring with row level validation
+- Anomaly detection using time series window functions
+- Operational risk scoring across multiple asset types
+- Full medallion lakehouse architecture from raw ingestion to governed Gold tables
+- Decision ready operational reporting for infrastructure management
+
+Designed to process:
+
+- 5 monitoring sites across pumping stations and service reservoirs
+- 96 readings per site per day (one every 15 minutes, 24 hours)
+- 35,000 or more telemetry records annually
+- Real time flood monitoring data from 500 or more UK Environment Agency stations
+
 ---
 
 ## Key Engineering Decisions
@@ -169,4 +186,4 @@ Open to Data Engineer, BI Analyst, and Data Analyst roles — remote or hybrid a
 =======
 # utility-telemetry-lakehouse
 End to end data engineering pipeline built on water infrastructure telemetry data. Python, Databricks, Delta Lake, PySpark, SQL and Power BI
->>>>>>> 837a3b5d73183acb801f46ec9077b52876df32ab
+
