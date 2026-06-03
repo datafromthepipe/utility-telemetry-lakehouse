@@ -1,6 +1,6 @@
 # Utility Telemetry Lakehouse
 
-A production style data engineering pipeline built on operational domain expertise from over 3 years of infrastructure monitoring at United Utilities — one of the UK's largest regulated water companies, serving over 7 million customers across the North West.
+A production style data engineering pipeline built using operational experience gained monitoring water and wastewater infrastructure in a major UK utility environment, serving over 7 million customers across the North West.
 
 Built by **Emi Shyngle** | [linkedin.com/in/emishyngle](https://linkedin.com/in/emishyngle) | [@datafromthepipe](https://github.com/datafromthepipe)
 
