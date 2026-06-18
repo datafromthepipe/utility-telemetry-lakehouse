@@ -8,7 +8,7 @@ Built by **Emi Shyngle** | [linkedin.com/in/emishyngle](https://linkedin.com/in/
 
 ## Domain Context
 
-Working across water, wastewater, telemetry, and network operations, I interpret high volume real-time sensor data from pumping stations, service reservoirs, CSOs and WwTW assets —triaging, managing compliance events end to end, and making data driven decisions where the cost of a wrong call is measured in service disruption to millions of people, fines and loss of confidence in the business by customers.
+Working across water, wastewater, telemetry, and network operations, I interpret high volume real-time sensor data from pumping stations, service reservoirs, CSOs and WwTW assets, triaging, managing compliance events end to end, and making data driven decisions where the cost of a wrong call is measured in service disruption to millions of people, fines and loss of confidence in the business by customers.
 
 That operational depth is the foundation of this project. The anomaly detection thresholds, telemetry freshness checks, data quality rules, and risk scoring logic are not arbitrary, they are derived from years of watching what good and bad data looks like in a live production environment where data quality has real world consequences.
 
@@ -153,9 +153,9 @@ Power BI performs significantly better against a properly modelled star schema t
 | Week | Status | What I built |
 |---|---|---|
 | Week 1 | ✅ Complete | Project setup, config.py, logger.py, README |
-| Week 2 | ⏳ Up next | Synthetic SCADA data generator with anomaly injection |
-| Week 3 | ⏳ Coming | Environment Agency API ingestion layer |
-| Week 4 | ⏳ Coming | Data quality gate with row-level validation rules |
+| Week 2 | ✅ Complete | Synthetic SCADA data generator with anomaly injection |
+| Week 3 | ✅ Complete | Environment Agency API ingestion layer |
+| Week 4 | ⏳ Up next | Data quality gate with row-level validation rules |
 | Week 5 | ⏳ Coming | Bronze Delta Lake layer in Databricks |
 | Week 6 | ⏳ Coming | Silver layer PySpark transforms and window functions |
 | Week 7 | ⏳ Coming | Gold layer SQL risk scoring and star schema |
