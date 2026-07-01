@@ -155,9 +155,9 @@ Power BI performs significantly better against a properly modelled star schema t
 | Week 1 | ✅ Complete | Project setup, config.py, logger.py, README |
 | Week 2 | ✅ Complete | Synthetic SCADA data generator with anomaly injection |
 | Week 3 | ✅ Complete | Environment Agency API ingestion layer |
-| Week 4 | ⏳ Up next | Data quality gate with row-level validation rules |
-| Week 5 | ⏳ Coming | Bronze Delta Lake layer in Databricks |
-| Week 6 | ⏳ Coming | Silver layer PySpark transforms and window functions |
+| Week 4 | ✅ Complete | Data quality gate with row-level validation rules |
+| Week 5 | ✅ Complete | Bronze Delta Lake layer in Databricks |
+| Week 6 | ⏳ Up next | Silver layer PySpark transforms and window functions |
 | Week 7 | ⏳ Coming | Gold layer SQL risk scoring and star schema |
 | Week 8 | ⏳ Coming | Power BI operational dashboard |
 
