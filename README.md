@@ -1,11 +1,31 @@
 # Utility Telemetry Lakehouse
 
-A production style data engineering pipeline built using operational experience gained monitoring water and wastewater infrastructure for over three years in a major UK utility environment serving over 7 million customers.
+An end to end data engineering project that simulates a modern telemetry lakehouse for water infrastructure using synthetic SCADA telemetry and live Environment Agency monitoring data.
+
+The project combines synthetic SCADA telemetry with live Environment Agency monitoring data and processes it through a Bronze, Silver and Gold lakehouse architecture using Python, PySpark, Databricks and Delta Lake.
 
 Built by **Emi Shyngle** | [linkedin.com/in/emishyngle](https://linkedin.com/in/emishyngle) | [@datafromthepipe](https://github.com/datafromthepipe)
 
 ---
+## Project Progress
 
+### Week 5 – Bronze Layer
+
+![Bronze Layer](docs/screenshots/week5_bronze_layer.png)
+
+### Week 6 – Rapid Rise Detection
+
+![Rapid Rise](docs/screenshots/week6_rapid_rise_events.png)
+
+### Week 6 – Possible Pump Failure Detection
+
+![Pump Failure](docs/screenshots/week6_pump_failure_events.png)
+
+### Week 6 – Validation
+
+![Validation](docs/screenshots/week6_silver_validation.png)
+
+---
 ## Domain Context
 
 Working across water, wastewater, telemetry, and network operations, I interpret high volume real-time sensor data from pumping stations, service reservoirs, CSOs and WwTW assets, triaging, managing compliance events end to end, and making data driven decisions where the cost of a wrong call is measured in service disruption to millions of people, fines and loss of confidence in the business by customers.
@@ -103,7 +123,7 @@ utility-telemetry-lakehouse/
 │   ├── 01_bronze_ingestion.py # Databricks: Bronze Delta table load
 │   ├── 02_silver_cleaning.py  # Databricks: Silver PySpark transforms
 │   ├── 03_gold_sql.sql        # Gold layer risk scoring and star schema
-│   └── 04_ml_model.py         # Risk classification model
+│   └── 04_powerbi_dashboard   # PowerBI Operational dashboard
 ├── data/
 │   ├── raw/                   # Raw ingested data — never modified
 │   └── processed/             # Validated and transformed outputs
@@ -117,19 +137,19 @@ utility-telemetry-lakehouse/
 This pipeline demonstrates:
 
 - Automated telemetry ingestion from live and synthetic data sources
-- Production grade data quality monitoring with row level validation
+- Production style data quality monitoring with row level validation
 - Anomaly detection using time series window functions
 - Operational risk scoring across multiple asset types
 - Full medallion lakehouse architecture from raw ingestion to governed Gold tables
 - Decision ready operational reporting for infrastructure management
 
-Designed to process:
+The synthetic telemetry generator currently produces:
 
-- 5 monitoring sites across pumping stations and service reservoirs
-- 96 readings per site per day (one every 15 minutes, 24 hours)
-- 35,000 or more telemetry records annually
-- Real time flood monitoring data from 500 or more UK Environment Agency stations
+• 5 monitoring sites
+• 96 readings per site
+• 480 telemetry records per execution
 
+The design can be scaled to larger datasets by increasing the number of sites and execution period.
 ---
 
 ## Key Engineering Decisions
@@ -157,22 +177,24 @@ Power BI performs significantly better against a properly modelled star schema t
 | Week 3 | ✅ Complete | Environment Agency API ingestion layer |
 | Week 4 | ✅ Complete | Data quality gate with row-level validation rules |
 | Week 5 | ✅ Complete | Bronze Delta Lake layer in Databricks |
-| Week 6 | ⏳ Up Next | Silver layer PySpark transforms and window functions |
-| Week 7 | ⏳ Coming | Gold layer SQL risk scoring and star schema |
-| Week 8 | ⏳ Coming | Power BI operational dashboard |
+| Week 6 | ✅ Complete | Silver PySpark layer with anomaly detection |
+| Week 7 | 🚧 In Progress | Gold layer SQL |
+| Week 8 | ⏳ Planned | Power BI Operational dashboard |
+| Future | ⏳ Planned | Predictive maintenance using machine learning |
 
 ---
 
-## Background
+## About Me
+
+I currently work in operational monitoring within the UK water industry, using SCADA and telemetry systems to support real-time operational decision making.
+
+Alongside my role, I am building practical data engineering projects using Python, Databricks, PySpark and SQL to strengthen my software engineering and lakehouse development skills.
 
 **MSc Data Science** . Machine learning, NLP, statistical modelling, Python, R.
 
 **BSc Statistics** — Quantitative analysis and applied research.
 
-***PGDiploma Business Administration** - Business, Accounting and Statistics.
-
-**8+ years** of data analysis, BI development, and operational analytics across regulated environments.
-
+**PGDiploma Business Administration** - Business, Accounting and Statistics.
 
 ---
 
@@ -182,8 +204,6 @@ Open to Data Engineer, BI Analyst, and Data Analyst roles — remote or hybrid a
 
 **Email:** emishyngle@gmail.com
 **LinkedIn:** [linkedin.com/in/emishyngle](https://linkedin.com/in/emishyngle)
-**Content:** [@datafromthepipe](https://tiktok.com/@datafromthepipe) — building this pipeline in public
-=======
-# utility-telemetry-lakehouse
-End to end data engineering pipeline built on water infrastructure telemetry data. Python, Databricks, Delta Lake, PySpark, SQL and Power BI
+**Tiktok:** [@datafromthepipe](https://tiktok.com/@datafromthepipe) — building this pipeline in public
+**Github:** @datafromthepipe
 
